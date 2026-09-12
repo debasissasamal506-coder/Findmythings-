@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Storage Box Base (isometric/perspective modern box) -->
+    <!-- Box Shadow -->
+    <path
+        android:fillColor="#26000000"
+        android:pathData="M30,78 L54,88 L78,78 L54,68 Z" />
+
+    <!-- Box Front Left Face -->
+    <path
+        android:pathData="M30,62 L54,72 L54,84 L30,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="62"
+                android:endX="54"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Box Front Right Face -->
+    <path
+        android:pathData="M54,72 L78,62 L78,74 L54,84 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="72"
+                android:endX="78"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D97706" />
+                <item android:offset="1.0" android:color="#B45309" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Box Open Top Flap / Rim Left -->
+    <path
+        android:pathData="M30,62 L54,72 L54,69 L30,59 Z"
+        android:fillColor="#FBBF24" />
+
+    <!-- Box Open Top Flap / Rim Right -->
+    <path
+        android:pathData="M54,72 L78,62 L78,59 L54,69 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Box Label Tag (Small organizer slot) -->
+    <path
+        android:pathData="M48,74 L60,69 L60,73 L48,78 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Location Pin Rising from Box -->
+    <!-- Pin Glow / Halo -->
+    <path
+        android:pathData="M54,22 C43.5,22 35,30.5 35,41 C35,53.5 54,68 54,68 C54,68 73,53.5 73,41 C73,30.5 64.5,22 54,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="22"
+                android:endX="54"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#60A5FA" />
+                <item android:offset="0.5" android:color="#3B82F6" />
+                <item android:offset="1.0" android:color="#1D4ED8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pin Inner Dot (Glowing center eye) -->
+    <path
+        android:pathData="M54,40 M54,34 A6,6 0 1,0 54,46 A6,6 0 1,0 54,34 Z"
+        android:fillColor="#FFFFFF" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Find My Things",
+  "description": "Personal item-location organizer to remember where you kept your belongings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
